@@ -14,10 +14,20 @@ def main():
         Item(name="Sulfuras, Hand of Ragnaros", sell_in=-1, quality=80),
         Item(name="Backstage passes to a TAFKAL80ETC concert", sell_in=15, quality=20),
         Item(name="Backstage passes to a TAFKAL80ETC concert", sell_in=10, quality=49),
-        Item(name="Backstage passes to a TAFKAL80ETC concert", sell_in=5, quality=49),
+        Item(name="Backstage passes to a TAFKAL80ETC concert", sell_in=5, quality=50),
+        Item(name="Backstage passes to a TAFKAL80ETC concert", sell_in=5, quality=20),
+        Item(name="Backstage passes to a TAFKAL80ETC concert", sell_in=5, quality=0),
+        Item(name="Backstage passes to a TAFKAL80ETC concert", sell_in=1, quality=49),
         Item(name="Conjured Mana Cake", sell_in=3, quality=6),  # <-- :O
+        Item(name="Conjured Mana Cake", sell_in=1, quality=10),
+        Item(name="Conjured Mana Cake", sell_in=0, quality=1),
+        Item(name="Conjured Mana Cake", sell_in=3, quality=2),
+        Item (name = "Mothers Milk", sell_in=0, quality=1),
+        Item (name = "test", sell_in=0, quality=1),
+        Item (name = "test", sell_in=0, quality=3),
+        Item (name = "test", sell_in=1, quality=2),
     ]
-    days = 2
+    days = 4
     import sys
     if len(sys.argv) > 1:
         days = int(sys.argv[1]) + 1
